@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Zhenyu (Dean) Yang | Critical Computation Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body bgcolor = #1c1c1c>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Zhenyu (Dean) Yang</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1</a></li>
+        <li>Project <a href="p2.html">#2</a></li>
+        <li>Project <a href="p3.html">#3</a></li>
+        <li>Project <a href="p4.html">#4</a></li>
+        <li>Project <a href="p5.html">#5</a></li>
+        <li>Project <a href="p6.html">#6</a></li>
+        <li>Project <a href="p7.html">#7</a></li>
+        <li>Project <a href="p8.html">#8</a></li>
+        <li>Project <a href="p9.html">#9</a></li>
+        <li>Project <a href="p10.html">#10</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <h1>
+        Project #8 ZOOM CAMERA FILTER
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+      <div class="fullwidth">
+        <iframe
+          allow="camera;microphone"
+          width="1280px"
+          height="720px"
+          src="https://editor.p5js.org/yangz211/full/8XrQ_maLb"
+        ></iframe>
+        <p>
+          https://editor.p5js.org/yangz211/sketches/8XrQ_maLb
+        </p>
+      </div>
+      <h1>
+        Description
+      </h1>
+      <p>
+        I created this camera filter for virtual meeting platforms, such as
+        Zoom. I remember that in Major Studio, my professor, my classmates, and
+        I once talked about this phenomenon of people not wanting to turn on
+        their cameras in a Zoom meeting. We discussed some potential reasons,
+        and I brought up a point saying that the different power dynamics of
+        looking made people feel vulnerable. Since in the real world, people can
+        easily acknowledge if someone is looking at them. In that case, people
+        can choose to follow that line of sight or avoid it. However, in a Zoom
+        environment, people cannot naturally detect that line of sight. This
+        particular psychology may bring us insecurity because we feel exposed to
+        all the attention that we don't have control of. Therefore, I designed
+        this camera filter to help people cope with that fear of turning on
+        their cameras. The filter is functional in a way that it blocks unwanted
+        lines of sight while letting your teachers and peers see your presence
+        and attention to the course content. Besides, I provided options for
+        people to choose different Emojis to express their feeling or thoughts
+        towards the class. As a result, blocking our faces won’t hinder our
+        class participation.
+      </p>
+      <h1>
+        Sample Images
+      </h1>
+      <div class="fullwidth">
+        <img
+          width="400px"
+          height="300px"
+          src="https://cdn.glitch.me/1aafc4e2-b504-47e9-90f4-2dc093819061%2F2.png?v=1637210818847"
+          alt="Neutral Face. "
+        />
+        <p>
+          Neutral Face
+        </p>
+      </div>
+      <div class="fullwidth">
+        <img
+          width="400px"
+          height="300px"
+          src="https://cdn.glitch.me/1aafc4e2-b504-47e9-90f4-2dc093819061%2F3.png?v=1637210825258"
+          alt="Smiling Face. "
+        />
+        <p>
+          Smiling Face
+        </p>
+      </div>
+      <div class="fullwidth">
+        <img
+          width="400px"
+          height="300px"
+          src="https://cdn.glitch.me/1aafc4e2-b504-47e9-90f4-2dc093819061%2F4.png?v=1637210833564"
+          alt="Sad Face. "
+        />
+        <p>
+          Sad Face
+        </p>
+      </div>
+      <div class="fullwidth">
+        <img
+          width="400px"
+          height="300px"
+          src="https://cdn.glitch.me/1aafc4e2-b504-47e9-90f4-2dc093819061%2F5.png?v=1637210840538"
+          alt="Laughing Face. "
+        />
+        <p>
+          Laughing Face
+        </p>
+      </div>
+      <div class="fullwidth">
+        <img
+          width="400px"
+          height="300px"
+          src="https://cdn.glitch.me/1aafc4e2-b504-47e9-90f4-2dc093819061%2F6.png?v=1637210847821"
+          alt="Thinking Face. "
+        />
+        <p>
+          Thinking Face
+        </p>
+      </div>
+      <div class="fullwidth">
+        <img
+          width="400px"
+          height="300px"
+          src="https://cdn.glitch.me/1aafc4e2-b504-47e9-90f4-2dc093819061%2F1.png?v=1637210809567"
+          alt="Original Face Recognition. "
+        />
+        <p>
+          Original Face Recognition
+        </p>
+      </div>
+      <h1>
+        Design Process
+      </h1>
+      <p>
+        I utilized the facial recognition example that was given under the
+        assignment description. By altering the line tracings of the face into a
+        solid mask, I got this basic model of facial covering. Then, I used
+        createRadio() to map out multiple options for the user to choose
+        whatever Emojis that could represent their moods. Besides, the Emojis
+        they choose can also follow the position of their faces. By having those
+        options to express emotions, this camera filter can not only protect the
+        user from unwanted attention but also be practical to show students'
+        engagment in the class.
+      </p>
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+      <p>
+        I really like this assignment since it let me explore privacy issues
+        within technology. Since the feedback loops for attention are so
+        different in the digital world, I think we need to come up with tools
+        that can help us overcome some of those disconnections and discomforts.
+        In my camera filter, I was able to turn a facial recognition camera that
+        was supposed to tell more information than a normal camera into a tool
+        that only gives out the information that we are willing to give out.
+        This project makes me think about a lot more scenarios that we can alter
+        technology to become more selective and humanistic.
+      </p>
+    </div>
+  </body>
+</html>
